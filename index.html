@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <form id="weather-form">
+            <input type="text" id="city" placeholder="Enter your city name">
+            <button type="submit">Get Details</button>
+        </form>
+        <div id="weather-result">
+            <h2>Weather in <span id="location"></span></h2>
+            <p id="description"></p>
+            <p>Temperature: <span id="temperature"></span>°C</p>
+            <p>Humidity: <span id="humidity"></span>%</p>
+            <p>Wind Speed: <span id="wind-speed"></span> m/s</p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
